@@ -13,9 +13,9 @@ The aim of this is to deploy a nested virtualization environment with the least 
 
 Two common ways to deploy this solution are;
 
-1.  Use the `Deploy to Azure` button below to deploy environment straight into your subscription. 
+1.  Use the `Deploy to Azure` button below to deploy environment straight into your subscription. You will need to deploy VM into a new Resource group due to VNet/Subnet configuration.
 
-    <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fhazelnestpublicstore.blob.core.windows.net%2Fpublic%2Fnestedvirtdsc.json" target="_blank"><img src="https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.png"/>
+    <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FhahazeMSFT%2Fazure-nestedvirtulaztion%2Fmaster%2Fnestedvirtdsc.json" target="_blank"><img src="https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.png"/>
     </a>
 
     ![Imgur](https://i.imgur.com/DMsgBnS.gif)
