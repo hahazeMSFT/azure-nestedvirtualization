@@ -277,7 +277,7 @@
                 }
             },
             "dependsOn": [
-                "Microsoft.CustomScriptExtension-InstallModule"
+                "Microsoft.Resources/deployments/Microsoft.CustomScriptExtension-InstallModule"
             ]
         }
     ],
